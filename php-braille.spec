@@ -13,6 +13,7 @@ Source0:	http://braille.php-baustelle.de/downloads/Releases/%{modname}-%{version
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRequires:	libbraille-devel
+BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 Functions to control a braille display (and keyboard), based on libbraille.
