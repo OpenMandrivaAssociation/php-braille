@@ -4,13 +4,12 @@
 
 Summary:	Functions to control a braille display (and keyboard), based on libbraille
 Name:		php-%{modname}
-Version:	0.1.0
-Release:	%mkrel 23
+Version:	0.1.1
+Release:	%mkrel 1
 Group:		Development/PHP
 License:	PHP License
-URL:		http://braille.php-baustelle.de/trac/
-Source0:	http://braille.php-baustelle.de/downloads/Releases/%{modname}-%{version}.tgz
-Patch0:		braille-0.1.0-php54x.diff
+URL:		http://libbraille.org
+Source0:	http://php-baustelle.de/%{modname}-%{version}.tgz
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRequires:	libbraille-devel
@@ -23,8 +22,6 @@ Functions to control a braille display (and keyboard), based on libbraille.
 
 %setup -q -n %{modname}-%{version}
 [ "../package*.xml" != "/" ] && mv ../package*.xml .
-
-%patch0 -p0
 
 # fix permissions
 find . -type f | xargs chmod 644
