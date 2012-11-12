@@ -1,0 +1,11 @@
+--- braille.c	2006-03-06 13:56:09.000000000 +0100
++++ braille.c.oden	2012-06-20 11:19:34.000000000 +0200
+@@ -19,7 +19,7 @@
+ #if HAVE_BRAILLE
+ 
+ /* {{{ braille_functions[] */
+-function_entry braille_functions[] = {
++zend_function_entry braille_functions[] = {
+ 	PHP_FE(braille_init        , NULL)
+ 	PHP_FE(braille_close       , NULL)
+ 	PHP_FE(braille_geterror    , NULL)
