@@ -5,7 +5,7 @@
 Summary:	Functions to control a braille display (and keyboard), based on libbraille
 Name:		php-%{modname}
 Version:	0.1.1
-Release:	%mkrel 1
+Release:	2
 Group:		Development/PHP
 License:	PHP License
 URL:		http://libbraille.org
