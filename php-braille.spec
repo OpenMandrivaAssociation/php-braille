@@ -8,7 +8,7 @@ Version:	0.1.1
 Release:	2
 Group:		Development/PHP
 License:	PHP License
-URL:		http://libbraille.org
+URL:		https://libbraille.org
 Source0:	http://php-baustelle.de/%{modname}-%{version}.tgz
 Patch0:		braille-0.1.1-php54x.diff
 BuildRequires:	php-devel >= 3:5.2.0
