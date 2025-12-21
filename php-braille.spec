@@ -11,6 +11,11 @@ License:	PHP License
 URL:		https://libbraille.org
 Source0:	http://php-baustelle.de/%{modname}-%{version}.tgz
 Patch0:		braille-0.1.1-php54x.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	file
 BuildRequires:	libbraille-devel
